@@ -246,7 +246,11 @@ margin-bottom: 72px;
     flex-wrap: wrap;
     gap: 48px 24px;
   }
- 
+ .app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+ }
   .portfolio-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -256,7 +260,6 @@ margin-bottom: 72px;
     margin-bottom: 8px;
   }
   .portfolio-list-item {
-    border: 1px solid #E7E9FC;
 background: var(--WHITE, #FFF);
 padding-bottom: 32px;
 padding-left: 16px;
