@@ -188,6 +188,9 @@ letter-spacing: 0.02em;
   .team-img {
     margin-bottom: 32px;
   }
+  .worker {
+    padding: 32px 0 32px;
+  }
   .team-title {
     color: #2E2F42;
     text-align: center;
