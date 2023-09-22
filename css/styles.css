@@ -34,7 +34,7 @@ img {
 }
 .container {
   width: 1158px;
-padding: 0 15px 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 .header {
@@ -273,8 +273,7 @@ width: calc((100% - 24px * 2) / 3);
     letter-spacing: 0.02em;
   }
   .footer {
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0 100px
   }
   .footer-logo-white {
     color: #f4f4fd;
@@ -293,6 +292,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
   }
   .footer-text {
     color: #F4F4FD;
