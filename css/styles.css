@@ -34,11 +34,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.header-container {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -48,10 +43,14 @@ img {
 .header {
   border-bottom: 1px solid #E7E9FC;
 }
-
+.header-container {
+  display: flex;
+}
 .header-navigation {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-menu {
   display: flex;
@@ -103,6 +102,8 @@ letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
   .header-address-link {
     color: #434455;
