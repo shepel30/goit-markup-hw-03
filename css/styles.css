@@ -45,17 +45,21 @@ img {
 }
 .header-container {
   display: flex;
+  
+
 }
 .header-navigation {
   display: flex;
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-right: 332px;
+
 }
 .header-menu {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
+  align-items: center;
 }
   .header-logo-black {
     color:#2E2F42;
@@ -101,10 +105,10 @@ padding: 24px 0;
   }
 .header-address-list {
   display: flex;
-  margin-left: auto;
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-left: auto;
 }
   .header-address-link {
     color: #434455;
@@ -210,7 +214,6 @@ letter-spacing: 0.02em;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
 }
   .team-subtitle {
     color: #2E2F42;
@@ -264,8 +267,6 @@ margin-bottom: 72px;
   }
   .portfolio-list-item {
 background: var(--WHITE, #FFF);
-padding-bottom: 32px;
-padding-left: 16px;
 width: calc((100% - 24px * 2) / 3);
   }
   .portfolio-item-text {
@@ -296,7 +297,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 16px;
   }
   .footer-text {
     color: #F4F4FD;
