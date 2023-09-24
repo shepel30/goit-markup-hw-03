@@ -45,6 +45,7 @@ img {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
   
 
 }
@@ -53,7 +54,6 @@ img {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
-  padding-right: 332px;
 
 }
 .header-menu {
